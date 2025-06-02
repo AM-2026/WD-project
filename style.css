@@ -9,39 +9,30 @@ body {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
-
-   <div class="banner">
-        Ashley's Webpage
-    </div>
-    <img src="img/Placeholder.png" alt="Placeholder image">
-        <h1>Welcome to My Webpage</h1>
-        <h2>Ashley Monahan</h2>
-        <h3>Web Developer</h3>
-        <p>
-            Hi! I'm Ashley, a passionate web developer who loves creating beautiful and user-friendly websites. I enjoy learning new technologies and building projects that make a difference.
-        </p>
-    </div>
-
 h1, h2, h3 {
     color: #343232; /* Light black */
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2em;
     margin-top: 0.5em;
+    text-align: center;
 }
 
 h2, h3 {
     font-size: 2em;
     margin: 0.3em 0;
 }
+
 .columns {
     display: flex;
     justify-content: space-between;
     gap: 2em;
     max-width: 800px;
     margin: 2em auto;
-    .column ul li {
+}
+
+.column ul li {
     background: #db8888;         /* Light gray */
     border-radius: 8px;
     padding: 0.5em 1em;
@@ -49,6 +40,7 @@ h2, h3 {
     list-style-type: disc;
     box-shadow: 0 1px 3px rgba(0,0,0,0.04);
 }
+
 .footer-banner {
     width: 100%;
     background: #7a4646;
@@ -60,5 +52,25 @@ h2, h3 {
     left: 0;
     bottom: 0;
     z-index: 100;
+  }
+/* Move .top-banner OUTSIDE of .footer-banner */
+.top-banner {
+    width: 100%;
+    height: 120px;
+    background: 
+        linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),
+        url('img/pink.jpg') center/cover no-repeat;
+    color: #d32f2f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    margin-bottom: -1.5em;
+    text-shadow: 0 1px 4px #fff, 0 0 2px #fff;
 }
 }
+
