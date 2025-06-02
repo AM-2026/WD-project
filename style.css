@@ -15,8 +15,11 @@ h1, h2, h3 {
 
 h1 {
     font-size: 2em;
-    margin-top: 0.5em;
-    text-align: center;
+    margin: 0;
+    text-align: left;
+    position: absolute;
+    top: 20px;
+    left: 40px;
 }
 
 h2, h3 {
@@ -52,25 +55,6 @@ h2, h3 {
     left: 0;
     bottom: 0;
     z-index: 100;
-  }
-/* Move .top-banner OUTSIDE of .footer-banner */
-.top-banner {
-    width: 100%;
-    height: 120px;
-    background: 
-        linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),
-        url('img/pink.jpg') center/cover no-repeat;
-    color: #d32f2f;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2em;
-    font-weight: bold;
-    position: relative;
-    z-index: 10;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-    margin-bottom: -1.5em;
-    text-shadow: 0 1px 4px #fff, 0 0 2px #fff;
-}
+  
 }
 
