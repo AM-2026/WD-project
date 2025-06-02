@@ -1,0 +1,64 @@
+body {
+    background-color: #f4cece; /* Light orange */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+
+   <div class="banner">
+        Ashley's Webpage
+    </div>
+    <img src="img/Placeholder.png" alt="Placeholder image">
+        <h1>Welcome to My Webpage</h1>
+        <h2>Ashley Monahan</h2>
+        <h3>Web Developer</h3>
+        <p>
+            Hi! I'm Ashley, a passionate web developer who loves creating beautiful and user-friendly websites. I enjoy learning new technologies and building projects that make a difference.
+        </p>
+    </div>
+
+h1, h2, h3 {
+    color: #343232; /* Light black */
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: 0.5em;
+}
+
+h2, h3 {
+    font-size: 2em;
+    margin: 0.3em 0;
+}
+.columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    max-width: 800px;
+    margin: 2em auto;
+    .column ul li {
+    background: #db8888;         /* Light gray */
+    border-radius: 8px;
+    padding: 0.5em 1em;
+    margin-bottom: 0.7em;
+    list-style-type: disc;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+.footer-banner {
+    width: 100%;
+    background: #7a4646;
+    color: #ffffff;
+    padding: 1em 0;
+    text-align: center;
+    font-size: 1em;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+}
+}
